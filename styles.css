@@ -7,6 +7,7 @@ html {
 body {
   border-color: #000000;
   border-style: solid;
+  margin: 1px 1px;
 }
 
 header {
@@ -16,7 +17,7 @@ header {
   border-bottom-color: #048eaa;
 
 }
-/*navigation link hover effects*/
+
 a:link {
   text-decoration: none;
 }
@@ -25,18 +26,10 @@ a:visited {
   color: #000000;
 }
 
-.clearfix:after {
-    content: ' ';
-    display: table;
-    clear: both;
+span {
+  color: black;
 }
 
-.dogbox.clearfix:after {
-    content: ' ';
-    display: table;
-    clear: both;
-}
-/*navigation header links*/
 .links {
   display: inline-block;
   color: #000000;
@@ -47,37 +40,22 @@ a:visited {
   position: relative;
   top: 1%;
 }
-/*Dog logo in the top right*/
+
 .logo {
   margin: 5px;
   width: 50px;
-  padding-right: 5px;
-  height: 65;
-  width: 65;
+  padding-left: 12px;
+  padding-top: 5px;
 }
 
 /* -----------------------------main section----------------------- */
-/* Hero section A Site About text*/
 h1 {
   color: #ffffff;
   margin-top: 0;
   padding: 10px 0;
   font-weight: 100 ;
 }
-/* form input box*/
-.form-title {
-  margin-right: 489px;
-  font-size: 14px;
-  font-weight: 700;
-  position: absolute;
-  top: 121%;
-  left: 39%;
-  width: 321px;
-  height: 12%;
-}
-
-/* Entire hero section*/
-.hero {
+main {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/park.jpg");
   background-size: 100% 100%;
   background-position: center;
@@ -87,47 +65,55 @@ h1 {
   height: 444px;
   border-bottom-style: solid;
   border-bottom-color: #048eaa;
+  display: block;
 }
-/* Hero section button to submit*/
-#herosection-button {
-  width: 327px;
-  height: 15%;
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#name-tag {
+  color: white;
+  position: relative;
+  right: 217px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.form-title {
+  display: block;
+  border: none;
+  width: 465px;
+  height: 38px;
+  margin: auto auto 15px auto;
+  font-size: 22px;
+  padding-left: 10px;
+
+}
+
+.form-button {
+  width: 475px;
+  height: 45px;
   background-color: #75e2e6;
   color: #000000;
-  position: absolute;
-  top: 138%;
-  left: 39%;
-  font-size: 16px;
+  font-size: 17px;
 }
-/* Some Dogs website text*/
+
+
 .hero-subtitle {
   font-weight: 700;
 }
-/* Hero section form input and button*/
-#main-info {
-  position: absolute;
-  top: 9%;
-  left: 3%;
-  width: 100%;
-}
-/*Hero section header items*/
-.main-head {
-  padding-top: 5px;
-  text-align: center;
-  margin: 0px;
-  width: auto;
-  color: #ffffff;
-}
-/* Name text above input form*/
-.name-text {
-  text-align: right;
-  position: absolute;
-  top: 112%;
-  right: 977px;
-  color: #ffffff;
-}
+
 /*----------------- 3 Dog Section -------------------------------------------------*/
-/* button bellow 3 dogs*/
+
+section {
+  margin: 43px auto;
+  position: relative;
+  left: 6%;
+}
+
 .dog-button {
   height: 50px;
   width: 325px;
@@ -141,29 +127,23 @@ h1 {
   vertical-align: top;
   vertical-align: baseline;
 }
-/* button for Name this Dog button below text*/
-.dog-button.short {
-position: absolute;
-top: 114%;
-right: 7%;
-color: #ffffff;
-}
-/* 3 dog paragraph text*/
+
 .dog-info {
   text-align: left;
-  font-weight: 5-
+  margin: auto 87px;
+  min-height: 232px;
 }
 
-/* 3 dog box paragraphs*/
+div {
+  padding-left: 0px;
+}
+
 .dog-box {
   display: inline-block;
-  width: 30%;
+  width: 488px;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
-  float: right;
 }
-/* All four dog pictures*/
+
 .dog-pictures {
   border-radius: 50%;
   border-color: #048eaa;
@@ -173,12 +153,10 @@ color: #ffffff;
   align-items: center;
   margin: 1%;
 }
-/* 3 dog box headers text*/
+
 h2 {
   margin-bottom: 35px;
 }
-
-/*footer---------------------------*/
 
 footer {
   background-color: #048eaa;
@@ -197,7 +175,6 @@ footer {
 .media-button {
   height: 36px
   width: 54px;
-
 }
 
 .social-media {
@@ -205,9 +182,3 @@ footer {
   height: 51px;
   margin-top: 14px;
 }
-
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
