@@ -2,6 +2,7 @@
 <html lang="en"> 
   <head> 
     <title>Dog Party</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
   </head>
@@ -10,31 +11,26 @@
         <img class="logo" src="images/dog-icon.svg" alt="A Puppy Image"/>
         <ul class="links">
           <li class="links">
-            <a href="Facts From Dog/index.html"><strong>Facts From Dog</strong></a>
+            <a href="Facts From Dog/index.html"><span>Facts From Dog</span></a>
           </li>
-          <li class="links"><a href="What is Dog/index.html"><strong>What is Dog</strong></a></li>
-          <li class="links"><a href="How To Dog/index.html"><strong>How To Dog</strong></a></li>
+          <li class="links"><a href="What is Dog/index.html"><span>What is Dog</span></a></li>
+          <li class="links"><a href="How To Dog/index.html"><span>How To Dog</span></a></li>
         </ul>
       </header>
-<!-- main section -->
       <main class="hero">
-        <div id="main-info">
-          <h1 class="hero-title">A Site About people <span class="hero-subtitle">Some Dogs</span></h1>
+          <h1 class="hero-title">A Site About people <strong class="hero-subtitle">Some Dogs</strong></h1>
           <img class="dog-pictures" 
                src="images/dog1-sq.jpg" 
                alt="picture of dog turing his head"/>
-          <form action="http://www.example.com"> 
-            <label class="name-text" for="input-field">
-              <strong>Name</strong>
-            </label>
-            <input class="form-title" id="input-field" type="text" name="dog" />
-            <button id="herosection-button">Name This Dog</button>
+          <form> 
+              <span id="name-tag">Name</span>
+            <input class="form-title" type="text" name="dog" />
+            <button class="form-button">Name This Dog</button>
           </form>
-        </div>
       </main>
-<!-- 3 dogs section -->
-        <ul class="clearfix">
-          <li class="dog-box"> 
+      <section>
+        <div class="clearfix">
+          <article class="dog-box"> 
             <h2>Facts From Dog</h2>
             <img class="dog-pictures" 
                src="images/dog4-sq.jpg" 
@@ -49,8 +45,8 @@
             hand that feed shibe long bois he
             made many woofs.</p>
             <button class="dog-button short">Facts</button>
-          </li>
-          <li class="dog-box">
+          </article>
+          <article class="dog-box">
             <h2>What Is Dogs</h2>
             <img class="dog-pictures" 
                src="images/dog3-sq.jpg" 
@@ -67,8 +63,8 @@
             shibe. Extremely cuuuuuute corgo
             waggy wags stop it fren.</p>
             <button class="dog-button">What</button>
-          </li>
-          <li class="dog-box">
+          </article>
+          <article class="dog-box">
             <h2>How To Dog</h2>
             <img class="dog-pictures" 
              src="images/dog2-sq.jpg" 
@@ -84,18 +80,16 @@
             corgo long water shoob stop it fren
             boofers pupper heck ruf.</p>
             <button class="dog-button">How</button>
-          </li>
-        </ul>
-<!-- footer section -->
-    <footer>
-        <p id="footer-title">Learn about Dogs Online</p>
-        <a href="https://twitter.com/dogs?lang=en"/> <img class="social-media" src="images/twitter.svg"/>
-        <a href="https://www.instagram.com/explore/tags/dogsofinstagram/"/> <img class="social-media" src="images/instagram.svg"/>
-        <a href="https://www.facebook.com/i.love.dogs.in/"/> <img class="social-media" src="images/facebook.svg"/>
-        <a href="https://www.linkedin.com/company/dogs-trust"/> <img class="social-media" src="images/linkedin.svg"/>
-    </footer>
+          </article>
+        </div>
+      </section>
+      <footer>
+          <p id="footer-title">Learn about Dogs Online</p>
+          <a href="https://twitter.com/dogs?lang=en"/> <img class="social-media" src="images/twitter.svg"/>
+          <a href="https://www.instagram.com/explore/tags/dogsofinstagram/"/> <img class="social-media" src="images/instagram.svg"/>
+          <a href="https://www.facebook.com/i.love.dogs.in/"/> <img class="social-media" src="images/facebook.svg"/>
+          <a href="https://www.linkedin.com/company/dogs-trust"/> <img class="social-media" src="images/linkedin.svg"/>
+      </footer>
+      <script src="index.js"></script>
   </body>
 </html>
-
-
-
