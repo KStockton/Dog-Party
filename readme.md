@@ -6,7 +6,7 @@ Motivation
 I the motivation behind this project is to allow the students to get familar typing out the HTML and CSS languages. It helps promote the use of several things such as wireframing, assigning classes, id's for CSS alterations, floating items and essentially trying to build a website from an image.
 
 Template
-https://user-images.githubusercontent.com/34406483/56772455-5b2dad00-6777-11e9-92ff-0d9fe3121ca1.jpg)
+![dpTemplate](https://user-images.githubusercontent.com/34406483/56772558-be1f4400-6777-11e9-9318-d95b3a551230.jpg)
 
 Code Style
 NA
