@@ -5,8 +5,8 @@ The project I was assigned in Turing 1811 was to create a website that looks ver
 Motivation
 I the motivation behind this project is to allow the students to get familar typing out the HTML and CSS languages. It helps promote the use of several things such as wireframing, assigning classes, id's for CSS alterations, floating items and essentially trying to build a website from an image.
 
-Build Status
-NA
+Template
+https://user-images.githubusercontent.com/34406483/56772455-5b2dad00-6777-11e9-92ff-0d9fe3121ca1.jpg)
 
 Code Style
 NA
@@ -26,36 +26,6 @@ Features
     The footer social media images take you to actual social media sites.
     The buttons below the hear section take you to the same page as the navigation bar in the header.
 
-Code Example
 
-HTML
 
-<li class="dog-box">
-<h2>What Is Dogs</h2>
-<img class="dog-pictures" 
-src="images/dog3-sq.jpg" 
-alt="picture of a dog"
-title="What Is Dog"/>
-<p class="dog-info">Long doggo smol borking doggo
-with a long snoot for pats
-pupperino h*ck heckin angery
-woofer shoober aqua doggo heck
-doggo aqua doggo most angery
-pupper I have ever seen heckin
-angery woofer pupper. ruff
-adorable doggo very hand that feed
-shibe. Extremely cuuuuuute corgo
-waggy wags stop it fren.</p>
-<button class="dog-button">What</button>
 
-CSS
-/* Hero section button to submit*/
-#herosection-button {
-width: 327px;
-height: 15%;
-background-color: #75e2e6;
-color: #000000;
-position: absolute;
-top: 154%;
-left: 39%;
-font-size: 16px;
