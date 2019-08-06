@@ -99,10 +99,13 @@ form {
   background-color: #75e2e6;
   color: #000000;
   font-size: 17px;
+<<<<<<< HEAD
 }
 
 .form-button:hover {
   cursor: pointer;
+=======
+>>>>>>> 834dc3519f546337c6e66247ce84235b163687c9
 }
 
 
@@ -162,7 +165,10 @@ h2 {
   margin-bottom: 35px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 834dc3519f546337c6e66247ce84235b163687c9
 footer {
   background-color: #048eaa;
   margin: 0px auto;

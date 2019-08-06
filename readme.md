@@ -1,61 +1,28 @@
-Dog Party
+## Dog Party
 
 The project I was assigned in Turing 1811 was to create a website that looks very similar to the image below. The project consited of HTML and CSS. The project helps teach HTML and CSS while learning all the different ways to write code for HTML and CSS. The project challenged us to not use grid of flex boat to move images around the webpage.
 
-Motivation
-I the motivation behind this project is to allow the students to get familar typing out the HTML and CSS languages. It helps promote the use of several things such as wireframing, assigning classes, id's for CSS alterations, floating items and essentially trying to build a website from an image.
+## Assignment
+This project was to allow me to get familar typing out the HTML and CSS languages. It helped me understand the need for several things such as wireframing, assigning classes, id's for CSS alterations, floating items and essentially trying to build a website from an image.
 
-Build Status
-NA
+## Template
+![dpTemplate](https://user-images.githubusercontent.com/34406483/56772558-be1f4400-6777-11e9-9318-d95b3a551230.jpg)
 
-Code Style
-NA
+## My ScreenShots
+                                Top Half
+<img width="1679" alt="Screen Shot 2019-04-25 at 4 38 42 PM" src="https://user-images.githubusercontent.com/34406483/56773090-f889e080-6779-11e9-9644-3de0da69cc67.png">
+                                Bottom Half
+<img width="1679" alt="Screen Shot 2019-04-25 at 4 39 00 PM" src="https://user-images.githubusercontent.com/34406483/56773091-fa53a400-6779-11e9-8333-1d1e88b00f4f.png">
+                                Mobile
+<img width="539" alt="Screen Shot 2019-04-25 at 4 47 55 PM" src="https://user-images.githubusercontent.com/34406483/56773093-fcb5fe00-6779-11e9-86a3-a64cdfe949ab.png">
 
-ScreenShots
-/Users/michaelking-stockton/Desktop/Screen Shot 2018-12-03 at 2.52.30 AM.png
-/Users/michaelking-stockton/Desktop/Screen Shot 2018-12-03 at 2.52.51 AM.png
-
-Tech/framework used
-
-Build with 
+## Built with 
     HTML
     CSS
+    JS
 
-Features 
+## Features 
     The header navigation bar has 3 functional links that take you to a functional index.html page for each link.
     The footer social media images take you to actual social media sites.
     The buttons below the hear section take you to the same page as the navigation bar in the header.
-
-Code Example
-
-HTML
-
-<li class="dog-box">
-<h2>What Is Dogs</h2>
-<img class="dog-pictures" 
-src="images/dog3-sq.jpg" 
-alt="picture of a dog"
-title="What Is Dog"/>
-<p class="dog-info">Long doggo smol borking doggo
-with a long snoot for pats
-pupperino h*ck heckin angery
-woofer shoober aqua doggo heck
-doggo aqua doggo most angery
-pupper I have ever seen heckin
-angery woofer pupper. ruff
-adorable doggo very hand that feed
-shibe. Extremely cuuuuuute corgo
-waggy wags stop it fren.</p>
-<button class="dog-button">What</button>
-
-CSS
-/* Hero section button to submit*/
-#herosection-button {
-width: 327px;
-height: 15%;
-background-color: #75e2e6;
-color: #000000;
-position: absolute;
-top: 154%;
-left: 39%;
-font-size: 16px;
+    If you fillout information in the input field it will change the SOME DOGS text with input value.
