@@ -101,6 +101,10 @@ form {
   font-size: 17px;
 }
 
+.form-button:hover {
+  cursor: pointer;
+}
+
 
 .hero-subtitle {
   font-weight: 700;
